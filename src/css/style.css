@@ -1,9 +1,5 @@
 /* add some font plis */
-
-:root {
-  --main-background: #3f3f47;
-  /* add the other colors */
-}
+@import "./colors.css";
 
 /* default styles  */
 * {
@@ -12,4 +8,25 @@
   line-height: 1.5;
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+  color: var(--main-fg);
+}
+
+body {
+  background-color: var(--main-beige);
+}
+
+#container {
+  width: 70%;
+  margin: 24px auto;
+  background-color: var(--main-bg);
+  border-radius: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-fg);
+}
+
+ul {
+  list-style: none;
 }
