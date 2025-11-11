@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -8,11 +9,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="./css/index.css">
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&family=Montserrat:wght@400;600;800&family=Playfair+Display:wght@400;700;900&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&family=Montserrat:wght@400;600;800&family=Playfair+Display:wght@400;700;900&display=swap"
+    rel="stylesheet">
   <!-- Firebase SDK - carregado via CDN -->
   <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/9.22.0/firebase-database-compat.js"></script>
 </head>
+
 <body data-tema="sakura">
   <div class="bg"></div>
   <div class="bg overlay"></div>
@@ -62,9 +66,9 @@
       <div class="card" style="max-width: 1200px; margin: 0 auto; padding: 2rem; text-align: center;">
         <h2 style="margin-top: 0; color: var(--accent);">Você foi convidado! 💌</h2>
         <p style="font-size: 1.1rem; line-height: 1.8; color: var(--fg); margin: 1.5rem 0;">
-          Olá! então, esse site é um <strong>conviteee!</strong> e você foi escolhido a dedo (uhum, sinta-se especial) 
-          pra participar do meu aniversário em Pindaí (é, Pindaí). No dia <strong>19</strong>, vai ser um brunch, amou? 
-          Por favor não deixe de participar e <strong>confirme sua presença aqui pelo site</strong>. 
+          Olá! então, esse site é um <strong>conviteee!</strong> e você foi escolhido a dedo (uhum, sinta-se especial)
+          pra participar do meu aniversário em Pindaí (é, Pindaí). No dia <strong>19</strong>, vai ser um brunch, amou?
+          Por favor não deixe de participar e <strong>confirme sua presença aqui pelo site</strong>.
           Qualquer pergunta acesse o FAQ no fim dessa página. ✨
         </p>
       </div>
@@ -120,21 +124,11 @@
         <div class="card">
           <h3>Confirmar presença</h3>
           <form id="formRSVP">
-            <input 
-              id="nomeRSVP" 
-              type="text" 
-              placeholder="Seu nome *" 
-              required
+            <input id="nomeRSVP" type="text" placeholder="Seu nome *" required
               style="width:100%; padding:.7rem; border-radius:10px; border:1px solid #fff; margin-bottom:.5rem">
-            <input 
-              id="telRSVP" 
-              type="tel" 
-              placeholder="Telefone (opcional)" 
+            <input id="telRSVP" type="tel" placeholder="Telefone (opcional)"
               style="width:100%; padding:.7rem; border-radius:10px; border:1px solid #fff; margin-bottom:.5rem">
-            <textarea 
-              id="msgRSVP" 
-              placeholder="Deixe uma mensagem (opcional)" 
-              maxlength="200" 
+            <textarea id="msgRSVP" placeholder="Deixe uma mensagem (opcional)" maxlength="200"
               style="width:100%; height:100px; padding:.7rem; border-radius:10px; border:1px solid #fff; margin-bottom:.5rem"></textarea>
             <button class="pill is-active" type="submit">Confirmar presença ✨</button>
           </form>
@@ -155,8 +149,10 @@
       <h2>Livro de Recados</h2>
       <div class="grid cols-3">
         <form class="card" id="formRecado">
-          <input id="nomeRec" placeholder="Seu nome" style="width:100%; padding:.7rem; border-radius:10px; border:1px solid #fff; margin-bottom:.5rem">
-          <textarea id="msgRec" placeholder="Mensagem (até 120 caracteres)" maxlength="120" style="width:100%; height:100px; padding:.7rem; border-radius:10px; border:1px solid #fff"></textarea>
+          <input id="nomeRec" placeholder="Seu nome"
+            style="width:100%; padding:.7rem; border-radius:10px; border:1px solid #fff; margin-bottom:.5rem">
+          <textarea id="msgRec" placeholder="Mensagem (até 120 caracteres)" maxlength="120"
+            style="width:100%; height:100px; padding:.7rem; border-radius:10px; border:1px solid #fff"></textarea>
           <div style="display:flex; gap:.5rem; margin-top:.6rem">
             <button class="pill is-active" type="submit">Publicar</button>
             <button class="pill secondary" type="button" id="btnExport">Exportar .txt</button>
@@ -171,27 +167,35 @@
     </section>
 
     <!-- PLAYLIST -->
-     <section id="playlist" class="section">
+    <section id="playlist" class="section">
       <h2>Playlist</h2>
-       <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/7nWzQorpG8gVrSipPWYDW0?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-       <div style="margin-top:.6rem; display:flex; gap:.6rem; align-items:center; flex-wrap:wrap">
-         <a class="pill is-active" href="https://open.spotify.com/playlist/7nWzQorpG8gVrSipPWYDW0?si=oDIa_yhFRkKqZKYgpk8lfQ&pt=a473d36de5ee39525b1a083de62929a4&pi=HnZdBjLrSU6-3" target="_blank" rel="noopener noreferrer" style="text-decoration:none">Coloque suas músicas</a>
-        </div>
-      </section>
+      <iframe style="border-radius:12px"
+        src="https://open.spotify.com/embed/playlist/7nWzQorpG8gVrSipPWYDW0?utm_source=generator" width="100%"
+        height="352" frameBorder="0" allowfullscreen=""
+        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      <div style="margin-top:.6rem; display:flex; gap:.6rem; align-items:center; flex-wrap:wrap">
+        <a class="pill is-active"
+          href="https://open.spotify.com/playlist/7nWzQorpG8gVrSipPWYDW0?si=oDIa_yhFRkKqZKYgpk8lfQ&pt=a473d36de5ee39525b1a083de62929a4&pi=HnZdBjLrSU6-3"
+          target="_blank" rel="noopener noreferrer" style="text-decoration:none">Coloque suas músicas</a>
+      </div>
+    </section>
 
     <!-- PHOTOBOOTH -->
     <section id="fotinho" class="section">
       <h2>Photobooth</h2>
       <div class="card">
-        <video id="cam" autoplay playsinline style="width:100%; border-radius:12px; background:#111; transform: scaleX(-1);"></video>
+        <video id="cam" autoplay playsinline
+          style="width:100%; border-radius:12px; background:#111; transform: scaleX(-1);"></video>
         <div style="display:flex; gap:.5rem; margin-top:.5rem; flex-wrap:wrap">
           <button class="pill is-active" id="btnFoto">Tirar foto</button>
           <button class="pill secondary" id="btnSticker">Trocar moldura</button>
         </div>
-        <div style="margin-top:1rem; padding:1rem; background:rgba(255,125,181,0.1); border-radius:12px; font-size:0.9rem; color:#6b6b74;">
+        <div
+          style="margin-top:1rem; padding:1rem; background:rgba(255,125,181,0.1); border-radius:12px; font-size:0.9rem; color:#6b6b74;">
           <p style="margin:0 0 0.5rem 0;"><strong style="color:#ff7db5;">💡 Como funciona:</strong></p>
           <p style="margin:0.3rem 0;">📸 A moldura aparece apenas na foto final (não no preview da câmera)</p>
-          <p style="margin:0.3rem 0;">🎨 Clique em "Trocar moldura" para alternar entre: Rosa 💗 → Corações 💕 → Aniversário 🎂 → Sem moldura</p>
+          <p style="margin:0.3rem 0;">🎨 Clique em "Trocar moldura" para alternar entre: Rosa 💗 → Corações 💕 →
+            Aniversário 🎂 → Sem moldura</p>
           <p style="margin:0.3rem 0;">✨ A moldura de Aniversário tem flores nos cantos e o número "18" no topo!</p>
         </div>
       </div>
@@ -203,12 +207,17 @@
       <div class="card">
         <p>Endereço: <strong>Rua Bevenuto Mendes Luz, 7, Bairro Jorge Amado</strong></p>
         <div style="height:360px; border-radius:12px; overflow:hidden; border:1px solid #fff">
-          <iframe title="Local" width="100%" height="100%" style="border:0" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
-              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3248.0634385957906!2d-42.682623459556446!3d-14.491039313703745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1762311011413!5m2!1spt-BR!2sbr"></iframe>
+          <iframe title="Local" width="100%" height="100%" style="border:0" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3248.0634385957906!2d-42.682623459556446!3d-14.491039313703745!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1762311011413!5m2!1spt-BR!2sbr"></iframe>
         </div>
         <div style="display:flex; gap:.5rem; margin-top:.6rem; flex-wrap:wrap">
-          <a class="pill is-active" href="https://www.google.com/maps/@-14.4908866,-42.6828671,20z?entry=ttu&g_ep=EgoyMDI1MTEwMi4wIKXMDSoASAFQAw%3D%3D" target="_blank">Abrir no Maps</a>
-          <a class="pill secondary" href="https://m.uber.com/go/home?drop%5B0%5D=%7B%22addressLine1%22%3A%22Rua%20Bevenuto%20Mendes%20Luz%22%2C%22addressLine2%22%3A%22R.%20Bevenuto%20Mendes%20Luz%20-%20Pinda%C3%AD%2C%20BA%22%2C%22id%22%3A%22EjdSLiBCZXZlbnV0byBNZW5kZXMgTHV6IC0gUGluZGHDrSwgQkEsIDQ2MzYwLTAwMCwgQnJhemlsIi4qLAoUChIJQ1kJ9SOwWgcRj9X41uo7AtgSFAoSCe1G2s1mr1oHEbj_bejCbvJ2%22%2C%22source%22%3A%22SEARCH%22%2C%22latitude%22%3A-14.4908522%2C%22longitude%22%3A-42.6830636%2C%22provider%22%3A%22google_places%22%7D&marketing_vistor_id=502d5426-e9ef-4ce0-a269-b3319393befc&uclick_id=17bb444f-564e-4567-b4a4-a0ddbdb154a3" target="_blank">Chamar Uber</a>
+          <a class="pill is-active"
+            href="https://www.google.com/maps/@-14.4908866,-42.6828671,20z?entry=ttu&g_ep=EgoyMDI1MTEwMi4wIKXMDSoASAFQAw%3D%3D"
+            target="_blank">Abrir no Maps</a>
+          <a class="pill secondary"
+            href="https://m.uber.com/go/home?drop%5B0%5D=%7B%22addressLine1%22%3A%22Rua%20Bevenuto%20Mendes%20Luz%22%2C%22addressLine2%22%3A%22R.%20Bevenuto%20Mendes%20Luz%20-%20Pinda%C3%AD%2C%20BA%22%2C%22id%22%3A%22EjdSLiBCZXZlbnV0byBNZW5kZXMgTHV6IC0gUGluZGHDrSwgQkEsIDQ2MzYwLTAwMCwgQnJhemlsIi4qLAoUChIJQ1kJ9SOwWgcRj9X41uo7AtgSFAoSCe1G2s1mr1oHEbj_bejCbvJ2%22%2C%22source%22%3A%22SEARCH%22%2C%22latitude%22%3A-14.4908522%2C%22longitude%22%3A-42.6830636%2C%22provider%22%3A%22google_places%22%7D&marketing_vistor_id=502d5426-e9ef-4ce0-a269-b3319393befc&uclick_id=17bb444f-564e-4567-b4a4-a0ddbdb154a3"
+            target="_blank">Chamar Uber</a>
         </div>
       </div>
     </section>
@@ -223,7 +232,8 @@
             <span class="faq-icon">+</span>
           </button>
           <div class="faq-answer">
-            <p>O brunch começa às 2 da tarde mas é melhor vc vir antes. O brunch não tem fim, então quanto antes vc chegar melhor (Não sei se fez sentido).</p>
+            <p>O brunch começa às 2 da tarde mas é melhor vc vir antes. O brunch não tem fim, então quanto antes vc
+              chegar melhor (Não sei se fez sentido).</p>
           </div>
         </div>
 
@@ -233,17 +243,20 @@
             <span class="faq-icon">+</span>
           </button>
           <div class="faq-answer">
-            <p>Sim, ainda é! Porém, devido eventos avaliativos que terão no dia, achei mais conveniente comemorarmos no dia 19 (mesmo que seja um número feio).</p>
+            <p>Sim, ainda é! Porém, devido eventos avaliativos que terão no dia, achei mais conveniente comemorarmos no
+              dia 19 (mesmo que seja um número feio).</p>
           </div>
         </div>
-        
+
         <div class="faq-item">
           <button class="faq-question" data-faq="1">
             <span>� Como caralhos eu vou pra Pindaí porra?</span>
             <span class="faq-icon">+</span>
           </button>
           <div class="faq-answer">
-            <p>Vocês podem vir para Pindaí de carro de linha, eles ficam disponíveis pra viagem na frente de dona Dedé, uma galera com blusa branca e colarim vermelho, ou azul e laranja. É 20 reais, complicado, mas vale a penaaa.</p>
+            <p>Vocês podem vir para Pindaí de carro de linha, eles ficam disponíveis pra viagem na frente de dona Dedé,
+              uma galera com blusa branca e colarim vermelho, ou azul e laranja. É 20 reais, complicado, mas vale a
+              penaaa.</p>
           </div>
         </div>
 
@@ -253,7 +266,7 @@
             <span class="faq-icon">+</span>
           </button>
           <div class="faq-answer">
-            <p>Então, cês vão dormir aqui em casa e vamos pra escola juntos no outro dia, ou não dormir também, é uma opção.</p>
+            <p>Então guys, a não ser que vocês consigam carona, o carro de linha é 20 pra vir e 20 pra voltar.</p>
           </div>
         </div>
 
@@ -266,17 +279,18 @@
             <p>Ah vai ser legal man, só se vive uma vez.</p>
           </div>
         </div>
-        
+
         <div class="faq-item">
           <button class="faq-question" data-faq="2">
             <span>� Posso ir com qualquer roupa?</span>
             <span class="faq-icon">+</span>
           </button>
           <div class="faq-answer">
-            <p>Naaaaao, você tem que vir usando algo rosa, ou com algo rosa. Um cachecol, as unhas, uma gravata, um sapato, mas tem que vir com algo rosa.</p>
+            <p>Naaaaao, você tem que vir usando algo rosa, ou com algo rosa. Um cachecol, as unhas, uma gravata, um
+              sapato, mas tem que vir com algo rosa.</p>
           </div>
         </div>
-        
+
         <div class="faq-item">
           <button class="faq-question" data-faq="3">
             <span>🎁 Precisa levar presente?</span>
@@ -286,7 +300,7 @@
             <p>Se quiser sim, mano.</p>
           </div>
         </div>
-        
+
         <div class="faq-item">
           <button class="faq-question" data-faq="4">
             <span>🥗 Tem restrições alimentares?</span>
@@ -296,7 +310,7 @@
             <p>Vai se fuder man.</p>
           </div>
         </div>
-        
+
         <div class="faq-item">
           <button class="faq-question" data-faq="5">
             <span>📱 Posso levar acompanhante?</span>
@@ -313,4 +327,5 @@
   <script src="./js/firebase.js"></script>
   <script src="./js/index.js"></script>
 </body>
+
 </html>
