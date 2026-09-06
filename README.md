@@ -13,9 +13,6 @@
   <a href="LICENSE">
     <img src="https://img.shields.io/github/license/maryvitoria002/brunchdos18.svg?label=License&style=flat-square" alt="License">
   </a>
-  <a href="#">
-    <img alt="Python Versions Supported" src="https://img.shields.io/badge/python-3.10%20|%203.11%20|%203.12-3776AB.svg?logo=python&logoColor=white&labelColor=555555">
-  </a>
 </p>
 
 <p align="center">
