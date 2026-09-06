@@ -12,8 +12,8 @@
   <a href="https://www.twenty.com">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="/src/assets/github-dark-theme.png" />
-      <source media="(prefers-color-scheme: light)" srcset="./packages/twenty-website/public/images/readme/github-cover-light.webp" />
-      <img src="./packages/twenty-website/public/images/readme/github-cover-light.webp" alt="Twenty banner" />
+      <source media="(prefers-color-scheme: light)" srcset="/src/assets/github-dark-theme.png" />
+      <img src="/src/assets/github-dark-theme.png" alt="Brunch banner" />
     </picture>
   </a>
 </p>
