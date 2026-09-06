@@ -1,6 +1,6 @@
 <p align="center">
   <a href="">
-    <img src="[./src/assets/favicon.ico)" width="100px" alt="Brunch logo" />
+    <img src="[/src/assets/favicon.ico)" width="100px" alt="Brunch logo" />
   </a>
 </p>
 
