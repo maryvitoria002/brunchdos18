@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://github.com/maryvitoria002/brunchdos18" target="_blank">
     <!-- Substitua pelo caminho real do logo no seu repo -->
-    <img src="/src/assets/favicon.ico" width="400" alt="Brunch Logo">
+    <img src="/src/assets/favicon.ico" width="200" alt="Brunch Logo">
   </a>
 </p>
 
