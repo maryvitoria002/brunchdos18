@@ -1,6 +1,6 @@
 <p align="center">
   <a href="">
-    <img src="[./packages/twenty-website/public/images/core/logo.svg](https://i.pinimg.com/736x/93/80/6b/93806b4e411c8cd9d36e753f69cdd930.jpg)" width="100px" alt="Twenty logo" />
+    <img src="[./src/assets/favicon.ico)" width="100px" alt="Brunch logo" />
   </a>
 </p>
 
